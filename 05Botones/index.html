@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario estandar</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+<!--container nos permite centrar el contenido-->
+		<div class="container">
+			<h1>Botones</h1>
+			<h3>12 Columnas</h3>
+		</div>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-block btn-default">Default</button>
+				<button class="btn btn-lg btn-block btn-primary">Primary</button>
+				<button class="btn btn-lg btn-block btn-success">Succes</button>
+				<button class="btn btn-lg btn-block btn-info">Info</button>
+				<button class="btn btn-lg btn-block btn-warning">Warning</button>
+				<button class="btn btn-lg btn-block btn-danger">Danger</button>
+				<button class="btn btn-lg btn-block btn-link" disabled>Link</button>
+			</div>
+
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-block btn-default active" disabled>Default</button>
+				<button class="btn btn-lg btn-block btn-primary active">Primary</button>
+				<button class="btn btn-lg btn-block btn-success active">Succes</button>
+				<button class="btn btn-lg btn-block btn-info active">Info</button>
+				<button class="btn btn-lg btn-block btn-warning active" disabled>Warning</button>
+				<button class="btn btn-lg btn-block btn-danger active">Danger</button>
+				<button class="btn btn-lg btn-block btn-link active">Link</button>
+			</div>
+
+			<div class="col-md-3">
+				<a href="#" class="btn btn-default">Default</a>
+				<a href="#" class="btn btn-primary" disabled>Primary</a>
+				<a href="#" class="btn btn-success">Succes</a>
+				<a href="#" class="btn btn-info">Info</a>
+				<a href="#" class="btn btn-warning">Warning</a>
+				<a href="#" class="btn btn-danger" disabled>Danger</a>
+				<a href="#" class="btn btn-link">Link</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Scripts-->
+	<script src="../Jquery3/jquery.min.js"></script>
+	<script src="../popper/popper1_14_7.min.js"></script>
+	<script src="../bootstrap3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

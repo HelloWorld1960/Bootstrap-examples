@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario estandar</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../bootstrap4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+<!--container nos permite centrar el contenido-->
+		<div class="container">
+			<h1>Formulario</h1>
+			<h3>12 Columnas</h3>
+		</div>
+	</header>
+
+		<div class="container">
+			<form action="" class="">
+				<div class="form-group">
+					<label>Label basica</label>
+					<input type="text" class="form-control" placeholder="Input Basico">
+				</div>
+
+				<textarea name="" id="" class="form-control" placeholder="textarea"></textarea>
+
+
+				<div class="form-group">
+					<label class="checkbox-inline" for="">
+						<input type="checkbox" name="" id="">Checkbox #1
+					</label>
+					<label class="checkbox-inline" for="">
+						<input type="checkbox" name="" id="">Checkbox #2
+					</label>
+					<label class="checkbox-inline" for="">
+						<input type="checkbox" name="" id="" disabled>Checkbox #3
+					</label>
+				</div>
+
+
+				<div class="radio">
+					<label for="radio1"><input type="radio" name="opcion" id="radio1">Radio1</label>
+				</div>
+				<div class="radio">
+					<label for="radio2"><input type="radio" name="opcion" id="radio2">Radio2</label>
+				</div>
+				<div class="radio disabled">
+					<label for="radio3"><input type="radio" name="opcion" id="radio3" disabled>Radio3</label>
+				</div>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+
+
+		<!--Scripts-->
+		<script src="../Jquery3/jquery.min.js"></script>
+		<script src="../popper/popper1_14_7.min.js"></script>
+		<script src="../bootstrap3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

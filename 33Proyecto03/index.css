@@ -1,0 +1,56 @@
+/*Header*/
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	background: #428BCA;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.jumbotron .titulo-blog{
+	font-size: 50px;
+}
+
+/*Articulo*/
+
+.main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*articulos*/
+
+.main .articulo{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.main .articulo .post-title a{
+	color: #333;
+}
+
+.main .articulo .thumbnail{
+	margin-right: 10px;
+	width: 40%;
+}
+
+.main .articulo .thumbnail .img{
+	width: 100%;
+}
+
+.main .articulo .contenedor-botones{
+	width: 100%;
+}
+
+/*Media Querie*/
+@media screen and (max-width: 768px){
+	.main .articulo .thumbnail{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}

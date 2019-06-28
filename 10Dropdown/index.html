@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Dropdown</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../bootstrap3/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap3/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+<!--container nos permite centrar el contenido-->
+		<div class="container">
+			<h1>Header</h1>
+			<h3>12 Columnas</h3>
+		</div>
+	</header>
+
+	<div class="container">
+		<br>
+		<div class="dropdown">
+			<button class="btn btn-success dropdown-toggle" type="button" id="dropdownmenu1" data-toggle="dropdown" aria-extended="true">
+				Dropdown
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownmenu1">
+				<li role="presentation" class="dropdown-header">Header</li>
+				<li class="divider"></li>
+				<li role="presentation"><a role="item" href="#">Iten 1</a></li>
+				<li role="presentation"><a role="item" href="#">Iten 2</a></li>
+				<li role="presentation"><a role="item" href="#">Iten 3</a></li>
+				<li role="presentation" class="disabled"><a role="item" href="#">Iten 4</a></li>
+			</ul>
+
+		</div>
+	</div>
+
+
+	<!--Scripts-->
+	<script src="../Jquery3/jquery.min.js"></script>
+	<script src="../popper/popper1_14_7.min.js"></script>
+	<script src="../bootstrap3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
